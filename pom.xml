@@ -85,4 +85,11 @@
             <url>http://artifacts.openmicroscopy.org/artifactory/ome.snapshots</url>
         </repository>
     </repositories>
+
+    <distributionManagement>
+        <repository>
+          <id>nist-nexus-site</id>
+            <url>http://vm-070.nist.gov:8081/nexus/</url>
+        </repository>
+    </distributionManagement>
 </project>
